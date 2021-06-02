@@ -82,10 +82,10 @@ OF THIS SOFTWARE.
 #include <pthread.h>
 
 #ifndef MAXSCREENS
-#define MAXSCREENS	16
+#define MAXSCREENS	32
 #endif
 #ifndef MAXGPUSCREENS
-#define MAXGPUSCREENS	16
+#define MAXGPUSCREENS	32
 #endif
 #define MAXCLIENTS	2048
 #define LIMITCLIENTS	256     /* Must be a power of 2 and <= MAXCLIENTS */
